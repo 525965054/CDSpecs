@@ -23,6 +23,11 @@ Pod::Spec.new do |s|
     ss.source_files = "CDCommon/Common/ImageTool/*.{h,m}"
     ss.frameworks = "UIKit"
   end
+
+    s.subspec "Category" do |ss|
+    ss.source_files = "CDCommon/Common/Category/*.{h,m}"
+    ss.frameworks = "UIKit"
+  end
   
 end
 
